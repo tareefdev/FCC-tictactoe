@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tec Tac Toe</title>
+    <link rel="stylesheet" href="flexboxgrid.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">  
+        <div class="chose" id="chose">
+            <h2 id="explain">Would you like to be X or O?</h2>
+            <button id="xplayer">X</button>
+          <p id="pip">||</p>
+            <button id="oplayer">O</button>
+        </div>
+        <div class="game-board">
+            <div class="borad">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="box topBorder leftBorder" id="0"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box topBorder" id="1"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box topBorder rightBorder" id="2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="box leftBorder" id="3"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box " id="4"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box rightBorder" id="5"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="box bottomBorder leftBorder" id="6"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box bottomBorder" id="7"></div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="box bottomBorder rightBorder" id="8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about"><h3>Made with &hearts; by Tareef</h3></div>
+      </div>
+      <script src="jquery-3.2.1.min.js"></script>
+      <script src="tictactoe.js"></script>
+</body>
+</html>
